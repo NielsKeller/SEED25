@@ -1,3 +1,13 @@
+'''
+Script to calibrate Bird's Eye View Transform of the RealSense.
+Place a rectangular object of known dimensions in the view of 
+the RealSense, at a known distance away from the camera. 
+In the display window, click on the four corners of the object. 
+The script will use this data to calibrate the BEV, and output
+a calibration data file. 
+'''
+
+
 import pyrealsense2 as rs
 import numpy as np
 import cv2

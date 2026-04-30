@@ -1,4 +1,11 @@
 # waypoint_manager_node.py
+
+'''
+Node to manage and hard-code waypoints for the path follower. 
+Controls which waypoint the robot is actively going for. 
+'''
+
+
 import rclpy
 from rclpy.node import Node
 from mocap4r2_msgs.msg import RigidBodies

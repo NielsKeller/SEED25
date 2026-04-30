@@ -1,3 +1,10 @@
+'''
+ROS Node that handles detection through the Arducam using
+a trained YOLO model. In this case, a YOLO model that is
+trained to detect small red rectangles. 
+'''
+
+
 from ultralytics import YOLO
 
 import rclpy

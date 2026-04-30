@@ -1,3 +1,15 @@
+'''
+Node that controls motor commands via terminal inputs. 
+Simple remote control.
+
+Up arrow: Move forward
+Down arrow: Move backward
+Right arrow: Pivot right
+Left arrow: Pivot left
+'''
+
+
+
 import rclpy
 from rclpy.node import Node
 import sys

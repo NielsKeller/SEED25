@@ -1,3 +1,9 @@
+'''
+Trains a DETR model using PyTorch. Uses image augmentation
+for better resilience to perspective and lighting changes.
+'''
+
+
 import os
 import torch
 from torch.utils.data import DataLoader

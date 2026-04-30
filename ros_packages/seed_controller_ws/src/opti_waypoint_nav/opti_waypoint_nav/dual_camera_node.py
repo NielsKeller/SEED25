@@ -1,3 +1,9 @@
+'''
+Node that displays the RealSense and Arducam views in a 
+pop-up window. 
+'''
+
+
 import rclpy
 from rclpy.node import Node
 import pyrealsense2 as rs

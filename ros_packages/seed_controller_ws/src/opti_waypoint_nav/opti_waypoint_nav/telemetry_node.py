@@ -1,3 +1,9 @@
+'''
+Node to broadcast and display telemetry information
+from OptiTrack. 
+'''
+
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Point, Pose2D

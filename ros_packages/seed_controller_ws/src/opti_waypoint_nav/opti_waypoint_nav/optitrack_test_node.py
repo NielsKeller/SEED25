@@ -1,3 +1,10 @@
+'''
+Node meant to be run standalone:
+Connects to OptiTrack to see if any rigidbody information
+is being recieved from OptiTrack by the robot. Use this 
+to ensure that the rigidbody streaming ID is correct. 
+'''
+
 import rclpy
 from rclpy.node import Node
 from mocap4r2_msgs.msg import RigidBodies

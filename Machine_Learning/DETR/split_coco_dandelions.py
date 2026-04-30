@@ -1,3 +1,9 @@
+'''
+Takes raw images and annotations and splits data into organized
+files for training. Splits images into 70% training,
+10% validation, and 20% testing.
+'''
+
 import os
 import json
 import random

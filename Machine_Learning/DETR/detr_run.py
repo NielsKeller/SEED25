@@ -1,3 +1,7 @@
+'''
+Alternate test of trained DETR model. 
+'''
+
 import os
 import torch
 from transformers import DetrImageProcessor, DetrForObjectDetection

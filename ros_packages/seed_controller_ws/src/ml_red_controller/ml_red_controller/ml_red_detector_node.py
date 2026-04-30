@@ -1,3 +1,9 @@
+'''
+Loads trained YOLO model to be used for detection on
+live video feeds of RealSense and Arducam. 
+'''
+
+
 from ultralytics import YOLO
 import torch 
 

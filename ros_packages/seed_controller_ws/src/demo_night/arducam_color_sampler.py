@@ -1,4 +1,16 @@
 # arducam_color_sampler.py
+
+'''
+Script used to find suggested color mask based on camera view
+in a user-drawn area. 
+
+Run the script on the Robot natively, place the object of
+desired detection in the view of the Arducam, and click-
+and-drag a rectangle around the color you want to detect.
+
+The script outputs the average RGB and HSV, and suggested
+HSV range for color masking. 
+'''
 import cv2
 import numpy as np
 

@@ -1,3 +1,9 @@
+'''
+ROS Node that displays live RealSense and Arducam views
+through pop-up window. 
+'''
+
+
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image

@@ -1,3 +1,9 @@
+'''
+Takes raw images and annotations and splits into
+organized data files - 70% training, 10% validation,
+and 20% testing. 
+'''
+
 import os
 import shutil
 import random

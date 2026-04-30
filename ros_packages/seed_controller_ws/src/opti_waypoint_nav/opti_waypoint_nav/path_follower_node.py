@@ -1,4 +1,13 @@
 # path_follower_node.py
+'''
+Node that acts as the path following controller. 
+Uses PID class to initialize a controller and takes the
+points given by the waypoint_manager node to autonomously
+navigate to those points. 
+'''
+
+
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Point, Pose2D

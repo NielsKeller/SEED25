@@ -1,3 +1,8 @@
+'''
+Evaluates trained DETR model using a confusion matrix. 
+'''
+
+
 import torch
 from transformers import DetrImageProcessor, DetrForObjectDetection
 from PIL import Image

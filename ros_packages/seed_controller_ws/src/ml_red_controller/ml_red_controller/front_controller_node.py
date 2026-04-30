@@ -1,3 +1,8 @@
+'''
+This is an unfinished node. This was not used in testing. 
+'''
+
+
 import sys
 import serial
 import serial.tools.list_ports

@@ -1,3 +1,10 @@
+'''
+Very simple ArUco code generator. Run, saves the codes
+as png files from the OpenCV ArUco dictionary. 
+'''
+
+
+
 import cv2
 import cv2.aruco as aruco
 import numpy as np

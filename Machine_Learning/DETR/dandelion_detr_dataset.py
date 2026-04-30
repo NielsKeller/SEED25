@@ -1,3 +1,9 @@
+'''
+Creates class for augmenting data to be used for 
+DETR training.
+'''
+
+
 import os
 import torch
 from torch.utils.data import Dataset

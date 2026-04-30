@@ -1,3 +1,12 @@
+'''
+Node that controls the calculations for the relative positioning
+of the robot compared to detected objects, and initializes
+a PID controller to operate the motors. 
+'''
+
+
+
+
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Point

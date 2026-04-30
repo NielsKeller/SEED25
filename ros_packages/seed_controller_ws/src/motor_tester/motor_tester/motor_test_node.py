@@ -1,3 +1,11 @@
+'''
+Runs a series of test movements to evaluate if
+the motor commands are as expected. Uses the PID
+class and the sabertooth script. 
+'''
+
+
+
 import rclpy
 from rclpy.node import Node
 import time

@@ -1,3 +1,9 @@
+'''
+Node to display virtual twin and hard-coded 
+waypoints. 
+'''
+
+
 import rclpy
 from rclpy.node import Node
 from mocap4r2_msgs.msg import RigidBodies
